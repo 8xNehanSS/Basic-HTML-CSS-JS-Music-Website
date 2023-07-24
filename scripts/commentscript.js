@@ -26,11 +26,11 @@ function sendEmail() {
 }
 
 function redirectthis() {
-    location.href = 'Sem2WEBCW/commentpagex.html';
+    location.href = 'commentpagex.html';
 }
 
 function redirectMainPage() {
-    window.location.href = 'Sem2WEBCW/index.html';
+    window.location.href = 'index.html';
   }
 
 function updateCountdown() {
