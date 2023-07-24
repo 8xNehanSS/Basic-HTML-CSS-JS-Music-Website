@@ -1,0 +1,159 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+.siteheading {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-right: 20px;
+}
+.navbg {
+  background: black;
+  min-height: 90px;
+  width: 100%;
+  color: white;
+  position: fixed;
+  top:0;
+}
+nav {
+  display:flex;
+  align-items: center;
+  padding: 8px 2%;
+}
+nav a:link {
+  text-decoration: none;
+}
+nav img,h1 {
+  cursor: pointer;
+  padding-top: 10px;
+}
+nav ul {
+  flex:1;
+  text-align: center;
+}
+nav ul li {
+  background: black;
+  padding: 1%;
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.space {
+  padding:70px;
+}
+
+.container {
+  padding-left: 13%;
+  margin: auto;
+  width: 50%;
+} 
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  gap: 1rem;
+}
+
+input,
+select,
+textarea {
+  padding:1.4rem;
+  background: transparent;
+  border: 1px solid black;
+}
+
+textarea {
+  height: 6rem;
+}
+
+button {
+  width: 8rem;
+  padding: 1.4rem;
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rating input[type="radio"] {
+    display: none;
+  }
+  
+  .rating label {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .rating label:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .rating input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+
+.postedpart {
+  text-align: center;
+}
+
+.postedpart p {
+  font-size: 13px;
+}
+
+.ascolumn {
+  padding-top:30px;
+  margin-left: 10%;
+  float: left;
+  width: 30%;
+}
+.fcolumn {
+  padding-top:30px;
+  padding-bottom:30px;
+  margin-left: 5%;
+  float: left;
+  width: 20%;
+}
+
+.footer {
+  color:white;
+  background-color: black;
+  display: flex;
+  clear: both;
+}
+
+#end {
+  text-align: center;
+}
+#editorpage:link {
+  text-decoration: none;
+  color: white;
+}
+#editorpage:visited {
+  color: white;
+}
+#editorpage:hover {
+  color: lime;
+}
+#editorpage {
+  font-size: 13px;
+}
+#ratelabel {
+  text-align: center;
+}
