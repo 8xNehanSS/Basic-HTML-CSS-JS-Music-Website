@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Feedback Form</title>
+  <link rel="stylesheet" href="styles/commentstyle.css">
+  <link rel="icon" type="image/x-icon" href="images/record.png">
+</head>
+<body>
+
+  <div class="navbg" id="home">
+    <nav>
+        <a href="index.html"><h1 class="siteheading">GEN-Z<br>Music</h1></a>
+        <a href="index.html"><img src="images/record.png" alt="logo" class="logoimage" width="50" height="60"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">New Music</a></li>
+            <li><a href="commentpage.html">Comments</a></li>
+            <li><a href="">Store</a></li>
+            <li><a href="">Quiz</a></li>
+            <li><a href="">Sitemap</a></li>
+            <li><a href="">About Us</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="space"></div>
+
+  <div class="container">
+    <h1>Comments Form</h1><br>
+    <form onsubmit="sendEmail(); return false;">
+        <label for="Name">Name:</label>
+        <input id="Name" type="text" name="Name" placeholder="Full Name" required>
+        <label for="Email">Email Address:</label>
+        <input id="Email" type="email" name="Email" placeholder="Email" required>
+        <label for="Gender">Select your gender:</label>
+        <select id="Gender" name="Gender" required>
+            <option value="" disabled selected>Select your gender..</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            <option value="nosay">Rather not say</option>
+        </select>
+        <label for="dob">Date of Birth:</label>
+        <input id="dob" type="date" name="dob" required>
+        <label for="Message">Comment on Site:</label>
+        <textarea id="Message" name="Message" placeholder="Message for the creators.." ></textarea>
+        <br>
+
+        <center><label for="rating1">Rate the Website:</label></center>
+      <div class="rating">
+        <input type="radio" name="rating" id="rating1" value="1" required>
+        <label for="rating1">1</label>
+        
+        <input type="radio" name="rating" id="rating2" value="2">
+        <label for="rating2">2</label>
+        
+        <input type="radio" name="rating" id="rating3" value="3">
+        <label for="rating3">3</label>
+        
+        <input type="radio" name="rating" id="rating4" value="4">
+        <label for="rating4">4</label>
+        
+        <input type="radio" name="rating" id="rating5" value="5">
+        <label for="rating5">5</label>
+        
+        <input type="radio" name="rating" id="rating6" value="6">
+        <label for="rating6">6</label>
+        
+        <input type="radio" name="rating" id="rating7" value="7">
+        <label for="rating7">7</label>
+        
+        <input type="radio" name="rating" id="rating8" value="8">
+        <label for="rating8">8</label>
+        
+        <input type="radio" name="rating" id="rating9" value="9">
+        <label for="rating9">9</label>
+        
+        <input type="radio" name="rating" id="rating10" value="10">
+        <label for="rating10">10</label>
+      </div>
+      <label id="ratelabel">1 - Bad experience  |   10 - Excellent experience</label>
+      <br>
+
+        <center><button type="submit">Send</button></center><br>
+    </form>
+</div>
+
+<div class="footer">
+  <div class="ascolumn">
+      <h4>GEN-Z Music</h4><br>
+      <p>The most trusted music platform.</p><br><br>
+      <p><a id ="editorpage" href="editorpage.html">Page Editor</a></p>
+  </div>
+  <div class="fcolumn">
+      <h4>More From GEN-Z</h4><br>
+      VIDEO<br>
+      PODCASTS<br>
+      VLOGS<br>
+      GUIDES
+  </div>
+  <div class="fcolumn">
+      <h4>EVENTS</h4><br>
+      UPCOMING MUSIC EVENTS<br>
+      PREVIOUS EVENTS<br>
+      ALL EVENTS
+  </div>
+</div>
+  <script src="scripts/commentscript.js"></script>
+</body>
+</html>
