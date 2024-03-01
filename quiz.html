@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href ="styles/quiz.css" />
+</head>
+<body>
+    <!--Logo and Navigation bar--> 
+    
+<div class="navbg" id="home">
+    <nav>
+        <a href="#home"><h1 class="siteheading">GEN-Z<br>Music</h1></a>
+        <a href="#home"><img src="images/record.png" alt="logo" class="logoimage" width="70" height="70"></a>
+        <link rel="stylesheet" href ="styles/nav.css" />
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="commentpage.html">Comments</a></li>
+            <li><a href="Album gallery.html">Gallery</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+            <li><a href="details.html">About Us</a></li>
+        </ul>
+        <buttton type="button" id="cartbutton"><img src="images/cart.png" alt="cart icon" width="50" height="55"></buttton>
+    </nav>
+</div>
+<div class="space"></div>
+        
+    <!--Start Button-->
+    <img src="images/quiz3.jpeg" alt="quiz1" class="center">
+    <div class="start_btn"><button class="btn">Attempt</button></div>
+    <!--Instruction box-->
+         <div class="info_box">
+        <div class="info-title"><span>Instructions</span></div>
+        <div class="info-list">
+            <div class="info">1. This quiz consist of 10 space related questions.</div>
+            <div class="info">2. You will be provided <span>30 seconds</span> to answer each question.</div>
+            <div class="info">3. You cannot go back or exit the quiz after you start.</div>
+            <div class="info">4. Once you select an option it cannot be undone.</div>
+            <div class="info">5. The total points u get will be displayed at the end.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Maybe Later</button>
+            <button class="restart">I'm Ready</button>
+        </div>
+        </div>
+        <!--Quiz Box-->
+        <div class="quiz_box">
+        <header>
+            <div class="title">Music</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Remaining</div>
+                <div class="timer_sec">30</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">             
+            </div>
+            <div class="option_list">               
+            </div>
+        </section>
+       
+        <footer>
+            <div class="total_que">               
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+    <!--Result Box-->
+        <div class="result_box">
+        <div class="icon">
+            <i class="fa-solid fa-jedi"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+    <!--Replay or Quit buttons for the quiz-->        
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    <script src="scripts/questions1.js"></script>
+    <script src="scripts/quiz.js"></script>   
+</body>
+</html> 

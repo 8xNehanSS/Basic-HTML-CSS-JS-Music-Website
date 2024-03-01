@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+</head>
+<body>
+    <h1>Checkout</h1>
+    
+    <form>
+        <label for="name"> <b>Customer Name</b> </label> <br>
+        <input type="text" name="name" placeholder="Enter your name:">
+        <br><br>
+        <label for="mail"> <b>Customer email</b> </label> <br>
+        <input type="email" name="email" placeholder="Enter your email:">
+        <br><br>
+        <label for="address"> <b>Customer Address</b> </label> <br>
+        <textarea id="address" name="adr"rows="5" cols="30"></textarea>
+        <br><br>
+        <label for="cnum"> <b>Credit card number:</b> </label> <br>
+        <input type="text" name="cnum">
+        <br><br>
+        <label for="exp"><b>Exp Date:</b></label>
+        <input type="month" id="exp" name="expdate"><br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <script src="scripts/checkout.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.siteheading {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-right: 20px;
+}
+.navbg {
+    background: black;
+    min-height: 90px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top:0;
+}
+nav {
+    display:flex;
+    align-items: center;
+    padding: 8px 2%;
+}
+nav a:link {
+    text-decoration: none;
+  }
+nav img,h1 {
+    cursor: pointer;
+    padding-top: 10px;
+}
+nav ul {
+    flex:1;
+    text-align: center;
+}
+nav ul li {
+    background: black;
+    padding: 1%;
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.space {
+    padding:70px;
+}
+.jazz-music {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1{
+    margin: 0;
+}
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 450;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 2%;
+}
+li{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.container {
+    
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    
+}
+.edt{
+    background-color: white;
+    border: 2px solid black;
+    color: rgb(38, 14, 98);
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-decoration:none;
+  }

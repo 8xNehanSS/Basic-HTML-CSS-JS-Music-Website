@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Store</title>
+    <link rel="stylesheet" href="styles/store.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--Common navbar-->
+    <div class="navbg" id="home">
+        <nav>
+            <a href="index.html"><h1 class="siteheading">GEN-Z<br>Music</h1></a>
+            <a href="index.html"><img src="images/record.png" alt="logo" class="logoimage" width="50" height="60"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="commentpage.html">Comments</a></li>
+                <li><a href="Album gallery.html">Gallery</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="details.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="cart-container">
+        <i class='bx bx-cart' id="cart-icon"></i>
+        <div class="cart">
+            <h2 class="store-title"> Shopping Cart</h2>
+                <!-- Content -->
+                <div class="cart-content">
+
+                </div>
+                <!-- Total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- Buy Now Button -->
+                <button type="button" class="button-buy">Buy Now</button>
+                <!-- Close the cart -->
+                <i class='bx bx-x' id="close-cart"></i>
+
+            </div>
+    </div>
+
+    <section class="details">
+        <form class="customerInfo">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <br/><br/>
+
+            <input type="email" name="email" placeholder="Enter email" required>
+            <br/><br/>
+        </form>
+    </section>
+
+
+
+    <!-- Store -->
+    <section class="shop container">
+        <h2 class="store-title">Albums</h2>
+        <!-- Albums -->
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="images/Speak-Now.jpeg" alt="" class="album-img">
+                <h2 class="album-title">Taylor Swift Speak Now (Taylor's Version)</h2>
+                <span class="price">$40</span>
+                <i class='bx bxs-cart-download add-cart' ></i>
+            </div>
+            <div class="product-box">
+                <img src="images/Reputation.jpeg" alt="" class="album-img">
+                <h2 class="album-title">Taylor Swift Reputation</h2>
+                <span class="price">$25</span>
+                <i class='bx bxs-cart-download add-cart' ></i>
+            </div>
+            <div class="product-box">
+                <img src="images/Folklore.jpeg" alt="" class="album-img">
+                <h2 class="album-title">Taylor Swift Folklore</h2>
+                <span class="price">$35</span>
+                <i class='bx bxs-cart-download add-cart' ></i>
+            </div>
+            <div class="product-box">
+                <img src="images/divide.jpg" alt="" class="album-img">
+                <h2 class="album-title">Ed Sheeran Divide</h2>
+                <span class="price">$30</span>
+                <i class='bx bxs-cart-download add-cart' ></i>
+            </div>
+            <div class="product-box">
+                <img src="images/Ed-Sheeran-Equals-album-cover.jpg" alt="" class="album-img">
+                <h2 class="album-title">Ed Sheeran Equals</h2>
+                <span class="price">$35</span>
+                <i class='bx bxs-cart-download add-cart' ></i>
+            </div>          
+            <div class="product-box">
+                <img src="images/-.jpg" alt="" class="album-img">
+                <h2 class="album-title">Ed Sheeran Subtract</h2>
+                <span class="price">$40</span>
+                <i class='bx bxs-cart-download add-cart' ></i>
+            </div>
+        </div>
+    </section>
+
+    <div class="button-edt">
+        <a href="page_editor.html"><button class="edt">
+            Page Editor
+        </button></a>
+    </div>
+
+    <script src="scripts/script.js" async></script>
+    
+</body>
+</html>

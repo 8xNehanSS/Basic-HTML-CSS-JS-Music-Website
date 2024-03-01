@@ -20,7 +20,7 @@ function sendEmail() {
     const body = encodeURIComponent(emailContent);
 
 
-    window.location.href = `mailto:nehanshashith@gmai.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:nehan.20220071@iit.ac.lk?subject=${subject}&body=${body}`;
     redirectthis();
 
 }
@@ -47,7 +47,7 @@ function updateCountdown() {
     }
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     updateCountdown();
   })
 
